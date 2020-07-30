@@ -10,6 +10,11 @@ class Distance
         feet=f; 
         inch=i; 
     }
+    void getData( ) 
+    {
+        cout<<"Feet:" << feet<<endl; 
+        cout<<"Inch:" << inch<<endl; 
+    }
 }; 
 
 Distance addtwoFeet(Distance dist)
