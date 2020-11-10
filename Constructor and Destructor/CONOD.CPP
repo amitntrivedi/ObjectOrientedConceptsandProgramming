@@ -1,5 +1,5 @@
-#include <iostream.h>
-#include <conio.h>
+#include <iostream>
+using namespace std; 
 
 class MyClass{
 	public:
@@ -23,14 +23,15 @@ class MyClass{
 };
 
 
-void main()
+int  main()
 {
-    clrscr();
+ 
  
     MyClass obj1(5);
     MyClass obj2(3,6);
 
-    obj0.getData();
+
     obj1.getData();
     obj2.getData();
+	return 0; 
 }
