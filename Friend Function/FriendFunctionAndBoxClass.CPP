@@ -1,5 +1,5 @@
-#include <iostream.h>
-#include <conio.h>
+#include <iostream>
+using namespace std; 
 
 class Box
 {
@@ -18,21 +18,20 @@ class Box
 
 void display(Box obj)       //non member function
 {
-	cout<<"I can dipslay anything"<<endl;
-	cout<< "width from display function:"<< obj.width<<endl;
+	cout<< "Width from display function:"<< obj.width<<endl;
 
 }
 
-void main()
+int main()
 {
 
 	Box mybox;
-	clrscr();
+	
 	cout<<"Box Program"<<endl;
 
 	mybox.setData(20); //erro
 	mybox.getData();
 
 	display(mybox);
-	getch();
+	return 0; 
 }
